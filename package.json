@@ -1,0 +1,23 @@
+{
+  "name": "maxmilhas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusoro/maxmilhas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateusoro/maxmilhas/issues"
+  },
+  "homepage": "https://github.com/mateusoro/maxmilhas#readme",
+  "dependencies": {
+    "puppeteer": "^7.0.4",
+    "xlsx": "^0.16.9"
+  }
+}
