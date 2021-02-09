@@ -1,17 +1,17 @@
 const puppeteer = require('puppeteer');
-var XLSX = require('npm');
+var XLSX = require('xlsx');
 var workbook = XLSX.readFile('dados.xls');
 var worksheet = workbook.Sheets[workbook.SheetNames[0]];
  
 var data = [];
 
-var links = ['https://nubank.maxmilhas.com.br/busca-passagens-aereas/RT/XAP/REC/2021-04-10/2021-04-21/2/0/0/EC'
-			 ];
+var links = ['https://nubank.maxmilhas.com.br/busca-passagens-aereas/RT/XAP/REC/2021-04-10/2021-04-21/2/0/0/EC' ];
 
 rodar(0);
 setInterval(() => {
   rodar(0);
 }, 60*60*1000);
+
 
 function rodar(ordem){
 // 
